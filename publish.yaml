@@ -14,6 +14,7 @@ Service:
   函数计算:
     Authorities:
       - AliyunFCFullAccess
+      - AliyunOSSFullAccess
 Parameters:
   type: object
   additionalProperties: false # 不允许增加其他属性
