@@ -14,7 +14,7 @@
 
 <description>
 
-> ***`Vue.js`目前最为流行的JavaScript前端框架，此项目是基于Vue的入门程序***
+> ***`Vue.js`是目前最为流行的 JavaScript 前端框架，此项目是基于 Vue3 的入门程序***
 
 </description>
 
