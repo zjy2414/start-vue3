@@ -23,9 +23,10 @@
 ## 前期准备
 使用该项目，推荐您拥有以下的产品权限 / 策略：
 
-| 服务/业务 | 函数计算 |     
-| --- |  --- |   
-| 权限/策略 | AliyunFCFullAccess |     
+| 服务/业务 | 函数计算            |
+| --------- | ------------------- |
+| 权限/策略 | AliyunFCFullAccess  |
+| 权限/策略 | AliyunOSSFullAccess |
 
 
 </table>
@@ -77,8 +78,8 @@ Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进
 <p align="center">
 
 | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407298906_20211028074819117230.png" width="130px" > | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407044136_20211028074404326599.png" width="130px" > | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407252200_20211028074732517533.png" width="130px" > |
-|--- | --- | --- |
-| <center>微信公众号：`serverless`</center> | <center>微信小助手：`xiaojiangwh`</center> | <center>钉钉交流群：`33947367`</center> | 
+| --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| <center>微信公众号：`serverless`</center>                                                                                         | <center>微信小助手：`xiaojiangwh`</center>                                                                                        | <center>钉钉交流群：`33947367`</center>                                                                                           |
 
 </p>
 
