@@ -1,0 +1,25 @@
+edition: 1.0.0
+access: "{{ access }}"
+
+vars: # 全局变量
+  region: "{{ region }}"
+
+services:
+  start-vue3:
+    component: oss
+    actions:
+      pre-deploy:
+        - run: npm install
+          path: ./code
+        - run: npm run build
+          path: ./code
+    props:
+      bucket: auto
+      codeUri: ./code/dist
+      region: ${vars.region}
+      website:
+        index: index.html
+        error: 404.html
+        subDirType: index
+      customDomains:
+        - domainName: auto
