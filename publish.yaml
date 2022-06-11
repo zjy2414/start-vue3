@@ -57,5 +57,5 @@ Parameters:
     functionName:
       title: 函数名
       type: string
-      default: vue3
+      default: start-vue3
       description: 应用的函数名称
