@@ -2,7 +2,7 @@ Type: Application
 Name: start-vue3
 Provider:
   - 阿里云
-Version: 1.0.2
+Version: 1.0.3
 Description: Vue是一套用于构建用户界面的渐进式框架。
 HomePage: https://github.com/zjy2414/start-vue3
 Tags:
