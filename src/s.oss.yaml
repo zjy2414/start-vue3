@@ -9,9 +9,11 @@ services:
     component: oss
     actions:
       pre-deploy:
-        - run: npm install
+        - run: yarn install
           path: ./code
-        - run: npm run build
+        - run: yarn run lint --fix
+          path: ./code
+        - run: yarn build
           path: ./code
     props:
       bucket: auto
